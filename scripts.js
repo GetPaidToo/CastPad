@@ -9,16 +9,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   const feeds = [
     {
-      title: "The Daily",
-      url: "https://rss.art19.com/the-daily"
-    },
-    {
-      title: "TLDR Daily",
-      url: "https://feeds.transistor.fm/tldr-daily"
-    },
-    {
-      title: "Huberman Lab",
-      url: "https://feeds.simplecast.com/54nAGcIl"
+      title: "The Daily Breifing",
+      url: "https://rss.art19.com/the-daily-briefing"
     },
     {
       title: "This American Life",
