@@ -1,4 +1,4 @@
-import { fetchPodcasts } from './api/podcast.js';
+import { fetchPodcasts } from './modules/podcast.js';
 
 document.getElementById('toggle-darkmode').addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
