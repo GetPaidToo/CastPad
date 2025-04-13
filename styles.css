@@ -11,6 +11,29 @@ body {
   color: #f4f4f4;
 }
 
+.dark-mode .podcast {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.podcast {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.5s, box-shadow 0.5s;
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
 #toggle-darkmode {
   display: block;
   margin: 0 auto 2rem;
